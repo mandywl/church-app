@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Receipt Tracker - Receipts</title>
+  <title>Melton 1st Ward</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <link href="css/style.css" rel="stylesheet" />
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-end">
-    <a class="navbar-brand" href="#">Foti's Concrete - Receipt Tracker - <span id='welcomeSpan'> </span></a>
+    <a class="navbar-brand" href="#">Melton 1st Ward <span id='welcomeSpan'> </span></a>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <button class="btn btn-outline-warning ml-auto mr-1" id="btnLogout">
+      <!-- <button class="btn btn-outline-warning ml-auto mr-1" id="btnLogout">
         Logout
-      </button>
+      </button> -->
     </div>
   </nav>
   <div class="container h-100">
@@ -22,28 +22,27 @@
       <div class="card col-12">
         <div class="login card-body">
           <div>
-            <h2 class="float-left">Receipts</h2>
+            <h2 class="float-left">Missionary Meal Roster</h2>
             <button id="btnInsert" class="btn btn-outline-dark float-right action-button">
-              Enter Receipt
+              Add an meal appointment
             </button>
-            <button id="btnExport" class="btn btn-outline-success float-right action-button">
+            <!-- <button id="btnExport" class="btn btn-outline-success float-right action-button">
               Export CSV
-            </button>
+            </button> -->
           </div>
           <table class="table receipt-table" id="receiptTable">
             <tr>
               <th>Date</th>
-              <th>Receipt No.</th>
-              <th>Type</th>
-              <th>Amount ($)</th>
-              <th>Tax ($)</th>
-              <th>Description</th>
-              <th>Justification</th>
-              <th>User</th>
+              <th>Name</th>
+              <th>Phone Number</th>
+              <!-- <th>Amount ($)</th>
+              <th>Tax ($)</th> -->
+              <th>Email</th>
+              <th>Comments</th>
+              <!-- <th>User</th> -->
             </tr>
           </table>
-          <span class="info-span"><b>Note:</b> You will only be able to see reciepts logged by yourself, and
-            anyone who <b><i>directly</i></b> reports to you.</span>
+          <span class="info-span"><b>Note:</b> Once appoinment is entered, it cannot be updated or deleted. Please contact RS secretary if you would like to make any changes.</span>
         </div>
       </div>
     </div>
