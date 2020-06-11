@@ -26,7 +26,7 @@ module.exports = function (app) {
     //   res.json({});
     // }
 
-    const query = `SELECT r.* FROM Receipt r ORDER BY r.transactionDate DESC`;
+    const query = `SELECT r.* FROM Receipt r ORDER BY r.transactionDate ASC`;
 
     try {
       const receipts = await db.sequelize.query(query, {
