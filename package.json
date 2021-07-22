@@ -25,7 +25,7 @@
     "sheetjs": "^2.0.0",
     "uuid": "^8.0.0",
     "uuidv4": "^6.0.9",
-    "xlsx": "^0.16.1"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
